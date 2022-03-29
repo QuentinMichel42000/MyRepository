@@ -1,0 +1,173 @@
+/* Déclaration initiale */
+
+* {
+    box-sizing: border-box; /* box-sizing est appliqué à tous les éléments */
+}
+
+body {
+    font-family: 'Botoro', sans-serif;
+}
+
+/* Tout les flex */
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* header */
+
+.policeTitre {
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.titleHoMyFood {
+    width: 100%;
+}
+
+.imgALaFrancaise {
+    background-image: url("../images/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-position: b;
+    z-index: 1;
+}
+
+/* body */
+
+.sizeALaFrancaise {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    border-radius: 45px 45px 0 0;
+    z-index: 2;
+}
+
+.policeTitre2 {
+    font-family: 'Shrikhand', sans-serif;
+    padding-top: 5%;
+    display: flex;
+    justify-content: start;
+    margin-left: 5%;
+}
+
+.logo {
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+.textEntrees {
+   margin-left: 5%;
+   border-bottom: 3px solid #99E2D0;
+   width : 10%;
+}
+
+.card {
+    background-color: white;
+    width: 90%;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.textCardEntier{
+    padding-left: 3%;
+}
+
+.textCard {
+    margin: 0;
+}
+
+.prix{
+    position: relative;
+    padding-right: 5%;
+}
+
+.prix:hover{
+    background-color: #99E2D0;
+    border-radius: 0 20px 20px 0;
+    height: 100%;
+    padding-left: 5%;
+}
+
+.bouton {
+    border-radius: 30px;
+    width: 50%;
+    background-color: #9356DC;
+    border: solid 1px #f2f2f2;
+    color:white;
+    padding: 4%;
+    box-shadow: inset 10px 20px 30px -5px #FF79DA ;
+    margin-bottom: 13%;
+    margin-top: 5%;   
+}
+
+/* footer */
+
+footer {
+    background-color: #3A3230;
+    padding-left: 10%;
+    padding-bottom: 8%;
+    padding-top: 3%;
+    height: 200px;
+}
+
+.titreFooter {
+    color: white;
+}
+
+.textFooter {
+    margin: 0px;
+    color: white;
+    padding: 1%;
+}
+
+.flexCenterFooter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colorIcon1 {
+    color: white;
+    margin-right: 15px;
+}
+
+.colorIcon2{
+    color: white;
+    margin-right: 10px;
+}
