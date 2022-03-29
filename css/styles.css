@@ -59,7 +59,7 @@ body {
 }
 
 .titleCountry {
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     width: 100%;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .textebouton{
-    background-color: #f9f9f9;
+    background-color: #f7f7f7;
 }
 
 .bouton {
@@ -96,7 +96,8 @@ body {
     color:white;
     padding: 4%;
     box-shadow: inset 10px 20px 30px -5px #FF79DA ;
-    margin-bottom: 15%;   
+    margin-bottom: 13%;
+    margin-top: 3%;   
 }
 
 /* Fonctionnment et reservation */
@@ -108,11 +109,9 @@ body {
     margin-right: 5%;
 }
 
-#Restaurants {
-    margin-left: 5%;
-    margin-right: 5%;
+.paddingTop{
+    padding-top: 7%;
 }
-
 
 .bouton1 {
     border-radius: 20px;
@@ -125,6 +124,11 @@ body {
     box-shadow: 0px 10px 10px #f2f2f2;
 }
 
+
+.colorIcon {
+    color: grey;
+}
+
 .bouton1:hover {
     background-color: #f3e6ff ;
 }
@@ -132,8 +136,6 @@ body {
 .bouton1:hover > input {
     background-color: #f3e6ff ;
 }
-
-
 
 input {
     border: none;
@@ -153,9 +155,25 @@ input {
 
 /* Restaurants */
 
+#Restaurants {
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 15%;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
 .sizeRestaurants{
+    width: 100%;
     height: 1100px;
-    margin-top: 0px;
+    margin-top: 0px; 
+}
+
+.paddingLeft {
+    padding-left: 2%;
+    padding-bottom: 5%;
 }
 
 .designCard{
@@ -205,30 +223,39 @@ input {
 
 .textCard {
     margin: 0px;
+    padding-bottom: 2%;
 }
 
 .textCard1234 {
     padding-left: 10px;
+    padding-bottom: 3%;
     margin-left: 5px;
     margin-top: 10px;
+   
 }
 
 .logo{
     margin-right: 15px;
     margin-top: 15px;
+    padding-bottom: 3%;
 }
 
-.logo:hover {
-    color: #9356DC;
+.fa-heart::before {
+    transition: color 1s ease-out;
 }
+.fa-heart:hover{
+    color: #9356DC;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 
 /* footer */
 
 footer {
-    background-color: grey;
-    margin-top: 10%;
+    background-color: #3A3230;
     padding-left: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     padding-top: 3%;
 }
 
