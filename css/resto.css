@@ -51,6 +51,10 @@ body {
 
 .policeTitre {
     font-family: 'Shrikhand', sans-serif;
+    padding-right: 30%;
+    padding-top: 4%;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .titleHoMyFood {
@@ -116,6 +120,11 @@ body {
 .logo {
     margin-right: 15%;
     padding-top: 5%;
+}
+
+.logoFlecheGauche {
+    padding-left: 20px;
+    color: black;
 }
 
 .textEntrees {
