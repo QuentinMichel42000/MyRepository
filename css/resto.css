@@ -133,6 +133,15 @@ body {
    width : 10%;
 }
 
+.fa-heart::before {
+    transition: color 1s ease-out;
+}
+.fa-heart:hover{
+    color: #9356DC;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .card {
     background-color: white;
     width: 90%;
