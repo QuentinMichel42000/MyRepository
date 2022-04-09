@@ -125,21 +125,24 @@ body {
     padding-bottom: 5%;
     margin-bottom: 5%;
     box-shadow: 0px 10px 10px #f2f2f2;
-    /*content: "Section:" counter(steps);
-    counter-increment: steps;*/
-}
-
-
-.colorIcon {
-    color: grey;
+    transition: transform .2s;
 }
 
 .bouton1:hover {
     background-color: #f3e6ff ;
+    transform: scale(1.05)
+}
+
+.bouton1:hover > .miniRond {
+    margin-right: 100%;
 }
 
 .bouton1:hover > input {
     background-color: #f3e6ff ;
+}
+
+.colorIcon {
+    color: grey;
 }
 
 input {
