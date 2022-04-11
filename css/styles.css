@@ -64,10 +64,9 @@ body {
 }
 
 .ParisBelleVille {
-    margin-left: 10px;
     background-color: #f2f2f2;
-    padding: 4%;
-    width: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 
@@ -120,7 +119,7 @@ body {
     border-radius: 20px;
     background-color: #f9f9f9;
     border: solid 1px #f2f2f2;
-    width: 95%;
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     margin-bottom: 5%;
@@ -148,7 +147,7 @@ body {
 input {
     border: none;
     background-color: #f9f9f9;
-    padding-left: 30px;
+    text-align:center;
 }
 
 .miniRond{
@@ -158,8 +157,9 @@ input {
     height: 20px;
     width: 20px;
     color: white;
-    margin-right: 85%
+    margin-right: 90%
 }
+
 
 /* Restaurants */
 
@@ -320,4 +320,127 @@ footer {
 .colorIcon2{
     color: white;
     margin-right: 10px;
+}
+
+.desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 550px){
+
+    .bouton{
+        margin-bottom: 10%;
+    }
+}
+
+
+@media screen and (min-width: 850px){
+
+    .desktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        flex-direction: row;
+    }
+
+    .bouton1 {
+        margin-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .miniRond{
+        position: absolute;
+        border-radius: 10px;
+        background-color: #9356DC;
+        height: 20px;
+        width: 20px;
+        color: white;
+        margin-right: 28%
+    }
+
+    .paddingTop{
+        padding: 2%;
+    }
+
+    .bouton {
+        margin-bottom: 6%;
+        padding: 3%;
+    }
+
+    #Restaurants {
+        margin-top: 1%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .textReservezMenu {
+        padding-top: 2%;
+    }
+
+    .designCard {
+        margin-bottom: 5%;
+    }
+
+    .sizeRestaurants {
+        height : auto;
+    }
+
+    .paddingLeft {
+        margin: 3%;
+        height: 30px;
+    }
+
+    .designCard {
+       width: 47%;
+       margin-bottom: 3%;
+    }
+
+    .desktop2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1050px){
+
+    .ParisBelleVille{
+        margin-left: 10px;
+        background-color: #f2f2f2;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        }
+
+    .designCard {
+        width: 47%;
+        margin-bottom: 3%;
+    }
+
+    .desktop2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;        
+        flex-direction: row;
+    }
+
+    footer{
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .bouton {
+        margin: 3%;
+        padding: 2%;
+    }
+
 }
