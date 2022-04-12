@@ -202,7 +202,6 @@ footer {
     padding-left: 10%;
     padding-bottom: 8%;
     padding-top: 3%;
-    height: 200px;
 }
 
 .titreFooter {
@@ -262,5 +261,11 @@ footer {
         width: 40%;
         margin-bottom: 5%;
         margin-top: 3%;
+    }
+
+    footer{
+        padding-left: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 }
