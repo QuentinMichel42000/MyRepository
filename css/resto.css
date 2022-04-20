@@ -153,36 +153,63 @@ body {
 
 .textCardEntier{
     padding-left: 3%;
+    width: 70%;
 }
 
 .textCard {
     margin: 0;
     padding-top: 1%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.carrePrix{
-    padding-right: 5%;
-    padding-top: 15px;
+.carrePrix {
+    display: flex;
+    align-items: center;
 }
 
 .text {
-    margin-top: 20px;
     margin: 1px;
 }
 
 .iconCheck {
-    color: white;
-    padding-left: 20%;
+    opacity: 0;
+    display: none;
+    color : white;
 }
 
-.carrePrix:hover{
-    background-color: #99E2D0;
-    color: #99E2D0;
-    border-radius: 0 20px 20px 0;
+ .card:hover .iconCheck {
+     opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #99e2d0;
     height: 100%;
-    padding-left: 5%;
-    padding-top: 0%;
-}
+    width: 20%;
+    border-radius: 0px 20px 20px 0px;
+    align-items: center;
+  }
+
+  /* Animation de l'icone dans la confirmation*/
+  .card:hover i {
+    transform: rotate(-360deg);
+    transition: 0.5s;
+  }
+
+  .iconCheck div {
+    display: flex;
+    height: 30px;
+    width: 40%;
+    border-radius: 50%;
+    background-color: #fff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconCheck div i {
+    color: #99e2d0;
+  }
 
 .bouton {
     border-radius: 30px;
