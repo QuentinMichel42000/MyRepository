@@ -167,6 +167,7 @@ body {
 .carrePrix {
     display: flex;
     align-items: center;
+    padding-right: 3%;
 }
 
 .text {
@@ -180,7 +181,7 @@ body {
 }
 
  .card:hover .iconCheck {
-     opacity: 1;
+    opacity: 1;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -197,19 +198,6 @@ body {
     transition: 0.5s;
   }
 
-  .iconCheck div {
-    display: flex;
-    height: 30px;
-    width: 40%;
-    border-radius: 50%;
-    background-color: #fff;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  .iconCheck div i {
-    color: #99e2d0;
-  }
 
 .bouton {
     border-radius: 30px;
