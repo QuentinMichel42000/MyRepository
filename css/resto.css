@@ -193,11 +193,19 @@ body {
   }
 
   /* Animation de l'icone dans la confirmation*/
-  .card:hover i {
-    transform: rotate(-360deg);
-    transition: 0.5s;
+  .iconCheck, .text, .card{
+    animation: fadein 2s;
   }
 
+
+  @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
 
 .bouton {
     border-radius: 30px;
@@ -216,7 +224,7 @@ body {
 footer {
     background-color: #3A3230;
     padding-left: 10%;
-    padding-bottom: 8%;
+    padding-bottom: 3%;
     padding-top: 3%;
 }
 
@@ -245,6 +253,16 @@ footer {
     color: white;
     margin-right: 10px;
 }
+
+@media screen and (min-width: 1200px){
+
+    .card {
+        margin-bottom: 10%;
+        width: 400px;
+        height: 90px;
+    }
+}
+
 
 @media screen and (min-width: 1050px){
     .groupePlat {
@@ -286,10 +304,37 @@ footer {
     }
 }
 
+@media screen and (min-width: 1200px){
+    .card {
+        margin-bottom: 10%;
+        width: 350px;
+        height: 90px;
+    }
+}
+
+
+
 @media screen and (min-width: 800px){
 
     .titleHoMyFood{
         padding-right: 40%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .titleHoMyFood{
+        padding-right: 45%;
+    }
+
+    .bouton {
+        padding: 1%;
+        width: 25%;
+    }
+
+    .card {
+        margin-bottom: 10%;
+        width: 400px;
+        height: 90px;
     }
 }
 
