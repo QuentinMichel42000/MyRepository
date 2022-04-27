@@ -193,17 +193,42 @@ body {
   }
 
   /* Animation de l'icone dans la confirmation*/
-  .iconCheck, .text, .card{
-    animation: fadein 2s;
+   .text, .card{
+    animation: fadein 2.5s;
   }
 
+  .iconCheck {
+    animation: anim 1.5s 500ms normal ease-out forwards;
+  }
+
+  .fa-circle-check {
+    animation: rotate 0.8s linear;
+  }
+
+  @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
   @keyframes fadein {
     from {
-        opacity:0;
+        opacity: 0;
     }
     to {
-        opacity:1;
+        opacity: 1;
+    }
+}
+
+  @keyframes anim {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100px;
     }
 }
 
