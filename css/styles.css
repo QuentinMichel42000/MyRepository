@@ -181,9 +181,9 @@ input {
 
 .paddingLeft {
     margin-top: 6%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     padding-left: 2%;
-    height: 60px;
+    height: 40px;
     width: 100%;
 }
 
@@ -268,7 +268,7 @@ input {
 .textBoutonVert {
     margin: 0px;
     padding: 5px;
-    color: #3CB371;
+    color: #006400;
 }
 
 .logo{
