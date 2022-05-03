@@ -198,7 +198,7 @@ body {
   }
 
   .iconCheck {
-    animation: anim 1.5s 500ms normal ease-out forwards;
+    animation: anim 1.5s normal ease-out forwards;
   }
 
   .fa-circle-check {
